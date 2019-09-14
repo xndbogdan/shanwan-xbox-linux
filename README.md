@@ -1,4 +1,4 @@
-#Shanwan gamepad script for linux
+# Shanwan gamepad script for linux
 
 I have found only bits of code on the internet.
 First thing of interest is that on windows, the computer sends back an instruction to power on the controller, while on linux it does not happen.
@@ -8,10 +8,10 @@ This script was used as inspiration
 https://gist.github.com/dnmodder/de2df973323b7c6acf45f40dc66e8db3
 
 Usage:
-sudo python fixcontroller.py
+- sudo python fixcontroller.py
 
-This script should take care of anything related to the gamepad.
+This script should take care of anything related to the gamepad, including handling of _xboxdrv_
 Just run it and leave it in the background.
-Terminate it when you've finished playing.
+Terminate it when you've finished playing and the gamepad will just shut down.
 
 Enjoy!
